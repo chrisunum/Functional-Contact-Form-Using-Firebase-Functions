@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://naishare.com/images/favicon.png"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <style>
+      .container-out {
+        font-family: "Fira Sans", sans-serif; /* adds font obtained from google fonts */
+        padding: 15px 0; /* adds padding at the top and bottom of the outer container */
+        max-width: 400px; /* gives the outer container a maximum width of 400px */
+        margin: 0 auto; /*centers the outer container in the middle of the body */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-out">
+      <div class="container-in">
+        <div class="contact-form">
+          <p>Name</p>
+          <input type="text" id="contact-name" />
+          <p>Email</p>
+          <input type="email" id="contact-email" />
+          <p>Message</p>
+          <textarea id="contact-message"></textarea>
+          <button id="send">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/main.js"></script>
+  </body>
+</html>

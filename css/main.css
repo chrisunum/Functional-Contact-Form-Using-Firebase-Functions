@@ -1,0 +1,51 @@
+.container-in {
+  padding: 30px 0; /* adds padding at the top and bottom of the inner container */
+  width: 95%; /* width of inner container equals 95% of the outer container */
+  margin: 0 auto; /*centers the outer container in the middle of the outer container */
+  background: #168ab8; /* gives the inner container a background color */
+  border-radius: 5px; /* curves the edges of the inner container by 5px */
+}
+
+.contact-form {
+  width: 85%; /* width of inner container equals 85% of the inner container */
+  margin: 0 auto; /*centers the outer container in the middle of the inner container */
+}
+
+.contact-form p {
+  margin: 0; /* removes all margins from the p tags */
+  margin: 5px 0; /* add 5px margin at the top and bottom of the p tags */
+  color: white; /* changes the text color of the p tag to white */
+}
+
+.contact-form input {
+  border: none; /* removes the border on the input */
+  width: 100%; /* makes the input width same as the contact-form div*/
+  margin-bottom: 15px; /* adds margin at the bottom of the input */
+  padding: 10px; /* adds 10px padding to all sides of the input */
+  box-sizing: border-box; /* prevents the input from overflowing out of the parent div */
+  border-radius: 3px; /* curves the edges of the input by 3px */
+}
+
+.contact-form textarea {
+  width: 100%; /* makes the textarea width same as the contact-form div */
+  padding: 10px; /*  adds 10px padding to all sides of the input */
+  box-sizing: border-box; /* prevents the input from overflowing out of the parent div */
+  border-radius: 3px; /* curves the edges of the input by 3px */
+  min-height: 120px; /* gives the text-area a minimum height of 120px */
+  margin-bottom: 15px; /* adds margin at the bottom of the textarea */
+  resize: vertical; /* limits resizing to vertical resizing */
+}
+
+.contact-form button {
+  border: none; /* removes the border on the button */
+  padding: 7px; /*  adds px padding to all sides of the button */
+  background: #e8f8ff; /* gives the button a background color */
+  color: #168ab8; /* changes the text color of the button to white */
+  border-radius: 4px; /* curves the edges of the button by 4px */
+  cursor: pointer; /* changes the mouse pointer when you hover over the button */
+  font-weight: bold; /* boldens the text of the button */
+}
+
+.contact-form button:hover {
+  opacity: 0.7; /* changes the opacity of the button to 0.7 on hover */
+}
